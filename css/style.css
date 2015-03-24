@@ -14,9 +14,9 @@ height: 100vh;
 
 .logo {
   align: middle;
-	width: 60vw;
+	width: 50vw;
 	position: absolute;
-	margin-top: 20vh;
+	margin-top: 15vh;
 	margin-left: auto;
 	margin-right: auto;
 	left: 0;
@@ -24,11 +24,26 @@ height: 100vh;
 
 }
 
+.intro{
+	align: middle;
+
+	position: absolute;
+	margin-top:59vh;
+	margin-left: 50vh;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	font-size: 60px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+
+
+}
 .arrow{
 	align: middle;
 
 	position: absolute;
-	margin-top: 80vh;
+	margin-top: 90vh;
 	margin-left: 90vh;
 	margin-right: auto;
 	left: 0;
@@ -54,6 +69,7 @@ height: 100vh;
 }
 body {
     line-height: 1;
+		font-family: 'Open Sans', sans-serif;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
