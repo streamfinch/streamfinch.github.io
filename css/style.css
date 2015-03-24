@@ -12,6 +12,20 @@ height: 100vh;
 	background-color: #eeeeee;
 }
 
+
+
+/* =============================================================================
+   Other custom CSS
+   ========================================================================== */
+
+.grid {
+
+  display: grid;
+
+  grid-columns: auto 100px 1fr 2fr;
+  grid-rows: 50px 5em auto;
+
+}
 .logo {
   align: middle;
 	width: 50vw;
