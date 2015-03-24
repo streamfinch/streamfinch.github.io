@@ -21,7 +21,7 @@ particlesJS('particles-js', {
     },
     size: 4,
     size_random: true,
-    nb: 150,
+    nb:(window.innerHeight*window.innerWidth)/5000,
     line_linked: {
       enable_auto: true,
       distance: 100,
