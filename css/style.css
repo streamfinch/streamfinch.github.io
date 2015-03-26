@@ -3,7 +3,7 @@
    ========================================================================== */
 .welcome{
 
-height: 100vh;
+  height: 100vh;
 
 }
 
@@ -17,6 +17,24 @@ height: 100vh;
 /* =============================================================================
    Other custom CSS
    ========================================================================== */
+
+
+   .button {
+     position: absolute;
+     vertical-align: top;
+     width: 7%;
+     height: 60px;
+     padding: 0;
+     font-size: 22px;
+     color: white;
+     text-align: center;
+     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+     background:#b61924;
+     border: 0;
+     border-bottom: 2px solid #b61924;
+     cursor: pointer;
+
+   }
 
 
 
@@ -62,7 +80,7 @@ height: 100vh;
   }
   .intro{
 	margin-top:40vh;}
-  
+
 }
 
 .arrow{
@@ -173,17 +191,18 @@ canvas {
 .panel {
     font-family: 'Source Sans Pro';
     position: absolute;
-
-    top: 50%;
-    left: 50%;
+    top: 5%;
+    left: 5%;
+		width:200px;
+		height:208px;
+		background-color:#b61924;
 
 }
 .panel h1 {
-    font-size: 1.8em;
-    font-weight: 700;
+	font-size: 80px;
     text-align: center;
     margin-bottom: 10px;
-    color: #222;
+    color: #fff;
 }
 .panel h2 {
     font-weight: 400;
