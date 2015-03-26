@@ -11,7 +11,14 @@
 	height: 100vh;
 	background-color: #eeeeee;
 }
-
+.about{
+	height: 100vh;
+	background-color: #eeeeee;
+}
+.contact{
+	height: 100vh;
+	background-color: #eeeeee;
+}
 
 
 /* =============================================================================
@@ -19,6 +26,30 @@
    ========================================================================== */
 
 
+  .contact-form {
+      float: middle;
+      font-size: 20px;
+      border: 3px solid rgba(181, 25, 36, 0.30);
+      color: #000;;
+      border-radius: 10px;
+      padding: 10px;
+      margin-top: 30px;
+      margin-left: 20vw;
+      margin-right: 20vw;
+  }
+
+  .portfolio-content{
+  	padding-top: 40px;
+  	padding: 20px;
+  	width: 100%;
+
+  }
+
+
+  .float-left {
+  	float:left;
+  	width:33%;
+  }
    .button {
      position: absolute;
      vertical-align: top;
@@ -47,7 +78,7 @@
 
 }
 .logo {
-    align: middle;
+    float: middle;
 	width: 50vw;
 	position: absolute;
 	margin-top: 15vh;
@@ -60,7 +91,7 @@
 
 
 .intro{
-	align: middle;
+	float: middle;
     text-align: center;
 	position: absolute;
 	margin-top:59vh;
@@ -74,6 +105,43 @@
 
 }
 
+.title{
+	margin-top:10vh;
+	color: #000;
+	}
+	.header{
+	margin-top:10vh;
+	color: #000;
+	}
+
+
+}
+
+.title{
+	float: middle;
+    text-align: center;
+	position: absolute;
+	margin-top:15vh;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	font-size: 5vh;
+	color: black;
+	font-family: 'Roboto', sans-serif;}
+
+.header{
+	float: middle;
+    text-align: center;
+	margin-top:15vh;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	font-size: 5vh;
+	color: black;
+	font-family: 'Roboto', sans-serif;}
+
+
+
 @media (max-width: 600px) {
   .logo {
     width: 85vw;
@@ -84,7 +152,7 @@
 }
 
 .arrow{
-	align: middle;
+	float: middle;
 
 	position: absolute;
 	margin-top: 90vh;
@@ -96,6 +164,12 @@
 	color: white;
 
 
+}
+
+.line{
+
+	text-align: center;
+	padding-left: 7%
 }
 
 
@@ -161,7 +235,7 @@ hr {
     padding: 0;
 }
 input, select {
-    vertical-align: middle;
+    vertical-float: middle;
 }
 li {
     list-style: none;
