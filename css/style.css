@@ -1,25 +1,11 @@
 /* =============================================================================
    Sections
    ========================================================================== */
-.welcome{
-
-  height: 100vh;
-
+section {
+    height: 100vh;
+    width:  100%;
+    background-color: #eeeeee;
 }
-
-.portfolio{
-	height: 100vh;
-	background-color: #eeeeee;
-}
-.about{
-	height: 100vh;
-	background-color: #eeeeee;
-}
-.contact{
-	height: 100vh;
-	background-color: #eeeeee;
-}
-
 
 /* =============================================================================
    Other custom CSS
