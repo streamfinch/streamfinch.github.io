@@ -1,155 +1,133 @@
-/* =============================================================================
-   Sections
-   ========================================================================== */
 section {
     height: 100vh;
-    width:  100%;
+    width: 100%;
     background-color: #eeeeee;
 }
 
-/* =============================================================================
-   Other custom CSS
-   ========================================================================== */
+.contact-form {
+    float: middle;
+    font-size: 20px;
+    border: 3px solid rgba(181, 25, 36, 0.30);
+    color: #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
 
+.portfolio-content {
+    padding-top: 40px;
+    padding: 20px;
+    width: 100%;
+}
 
-  .contact-form {
-      float: middle;
-      font-size: 20px;
-      border: 3px solid rgba(181, 25, 36, 0.30);
-      color: #000;;
-      border-radius: 10px;
-      padding: 10px;
-      margin-top: 30px;
-      margin-left: 20vw;
-      margin-right: 20vw;
-  }
+.float-left {
+    float: left;
+    width: 33%;
+}
 
-  .portfolio-content{
-  	padding-top: 40px;
-  	padding: 20px;
-  	width: 100%;
-
-  }
-
-
-  .float-left {
-  	float:left;
-  	width:33%;
-  }
-   .button {
-     position: absolute;
-     vertical-align: top;
-     width: 7%;
-     height: 60px;
-     padding: 0;
-     font-size: 22px;
-     color: white;
-     text-align: center;
-     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
-     background:#b61924;
-     border: 0;
-     border-bottom: 2px solid #b61924;
-     cursor: pointer;
-
-   }
-
-
+.button {
+    position: absolute;
+    vertical-align: top;
+    width: 7%;
+    height: 60px;
+    padding: 0;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #b61924;
+    border: 0;
+    border-bottom: 2px solid #b61924;
+    cursor: pointer;
+}
 
 .grid {
-
-  display: grid;
-
-  grid-columns: auto 100px 1fr 2fr;
-  grid-rows: 50px 5em auto;
-
+    display: grid;
+    grid-columns: auto 100px 1fr 2fr;
+    grid-rows: 50px 5em auto;
 }
+
 .logo {
     float: middle;
-	width: 50vw;
-	position: absolute;
-	margin-top: 15vh;
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
+    width: 50vw;
+    position: absolute;
+    margin-top: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
 
+.intro {
+    float: middle;
+    text-align: center;
+    position: absolute;
+    margin-top: 59vh;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-size: 5vh;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    margin-top: 10vh;
+    color: #000;
+}
+
+.header {
+    margin-top: 40px;
+    color: #000;
 }
 
 
-.intro{
-	float: middle;
+.title {
+    float: middle;
     text-align: center;
-	position: absolute;
-	margin-top:59vh;
-	margin-right: auto;
-	left: 0;
-	right: 0;
-	font-size: 5vh;
-	color: white;
-	font-family: 'Roboto', sans-serif;
-
-
+    position: absolute;
+    margin-top: 15vh;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-size: 5vh;
+    color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
-.title{
-	margin-top:10vh;
-	color: #000;
-	}
-	.header{
-	margin-top:10vh;
-	color: #000;
-	}
-
-
+.header {
+    float: middle;
+    text-align: center;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-size: 5vh;
+    color: black;
+    font-family: 'Roboto', sans-serif;
 }
-
-.title{
-	float: middle;
-    text-align: center;
-	position: absolute;
-	margin-top:15vh;
-	margin-right: auto;
-	left: 0;
-	right: 0;
-	font-size: 5vh;
-	color: black;
-	font-family: 'Roboto', sans-serif;}
-
-.header{
-	float: middle;
-    text-align: center;
-	margin-top:0vh;
-	margin-right: auto;
-	left: 0;
-	right: 0;
-	font-size: 5vh;
-	color: black;
-	font-family: 'Roboto', sans-serif;}
-
-
 
 @media (max-width: 600px) {
-  .logo {
-    width: 85vw;
-  }
-  .intro{
-	margin-top:40vh;}
+    .logo {
+        width: 85vw;
+    }
 
+    .intro {
+        margin-top: 40vh;
+    };
 }
 
-.arrow{
-	float: middle;
-
-	position: absolute;
-	margin-top: 90vh;
-	text-align: center;
-	margin-right: auto;
-	left: 0;
-	right: 0;
-	font-size: 10vh;
-	color: white;
-
-
+.arrow {
+    float: middle;
+    position: absolute;
+    margin-top: 90vh;
+    text-align: center;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-size: 10vh;
+    color: white;
 }
 
 
@@ -158,7 +136,7 @@ section {
 /* =============================================================================
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
-	html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -167,22 +145,28 @@ section {
     vertical-align: baseline;
     background: transparent;
 }
+
 body {
     line-height: 1;
-		font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
 nav ul {
     list-style: none;
 }
+
 blockquote, q {
     quotes: none;
 }
+
 blockquote:before, blockquote:after, q:before, q:after {
     content: none;
 }
+
 a {
     margin: 0;
     padding: 0;
@@ -191,37 +175,43 @@ a {
     background: transparent;
     text-decoration: none;
 }
+
 mark {
     background-color: #ff9;
     color: #000;
     font-style: italic;
     font-weight: bold;
 }
+
 del {
     text-decoration: line-through;
 }
+
 abbr[title], dfn[title] {
     border-bottom: 1px dotted;
     cursor: help;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
 hr {
     display: block;
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-
-
 }
+
 input, select {
     vertical-float: middle;
 }
+
 li {
     list-style: none;
 }
+
 @font-face {
     font-family: 'icomoon';
     src: url("fonts/icomoon.eot?g1vuq9");
@@ -229,37 +219,42 @@ li {
     font-weight: normal;
     font-style: normal;
 }
+
 html, body {
     width: 100%;
     height: 100%;
     background: #eeeeee;
 }
+
 canvas {
     display: block;
     vertical-align: bottom;
     opacity: 0.6;
 }
+
 #particles-js {
     width: 100%;
     height: 100%;
     background-color: #b61924;
 }
+
 .panel {
     font-family: 'Source Sans Pro';
     position: absolute;
     top: 5%;
     left: 5%;
-		width:200px;
-		height:208px;
-		background-color:#b61924;
-
+    width: 200px;
+    height: 208px;
+    background-color: #b61924;
 }
+
 .panel h1 {
-	font-size: 80px;
+    font-size: 80px;
     text-align: center;
     margin-bottom: 10px;
     color: #fff;
 }
+
 .panel h2 {
     font-weight: 400;
     font-size: .8em;
@@ -267,6 +262,7 @@ canvas {
     text-align: center;
     line-height: 1.3em;
 }
+
 .panel li {
     font-size: 1.1em;
     font-weight: 400;
@@ -284,6 +280,7 @@ canvas {
     -webkit-transition: background 0.2s ease, color 0.2s ease;
     transition: background 0.2s ease, color 0.2s ease;
 }
+
 .panel li a {
     display: block;
     width: 100%;
@@ -294,20 +291,26 @@ canvas {
     -webkit-transition: color 0.2s ease;
     transition: color 0.2s ease;
 }
+
 .panel li a span:after {
     font-family: 'icomoon';
     margin-left: 10px;
     vertical-align: top;
 }
+
 .panel li:nth-of-type(1) a span:after {
-    content: "\e601"}
+    content: "\e601";
+}
+
 .panel li:nth-of-type(2) a span:after {
-    content: "\e600"}
+    content: "\e600";
+}
+
 .panel li:hover {
     background: #222;
     color: #fff;
 }
+
 .panel li:hover a {
     color: #fff;
 }
-	/*# sourceMappingURL=style.css.map */
