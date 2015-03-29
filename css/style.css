@@ -4,6 +4,20 @@ section {
     background-color: #eeeeee;
 }
 
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid div {
+    width:  200px;
+    height: 200px;
+    margin: 50px;
+    background-color: #b61924;
+}
+
 .contact-form {
     float: middle;
     font-size: 20px;
