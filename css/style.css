@@ -16,6 +16,10 @@ section {
     background-color: #eeeeee;
 }
 
+footer {
+    background-color: black;
+}
+
 .logo {
     float: middle;
     width: 50vw;
