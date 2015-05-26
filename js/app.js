@@ -5,7 +5,7 @@
 //particlesJS('dom-id');
 
 /* config dom id (optional) + config particles params */
-particlesJS('particles-js', {
+particlesJS('particles', {
   particles: {
     color: '#fff',
     color_random: false,
