@@ -103,19 +103,34 @@ footer {
 #section-title {
 	padding-top: 40px;
 	text-align: center;
+	color: #b61924;
 	font-size: 300%;
 }
-
+contact-title {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: #b61924;
+	font-size: 300%;
+}
 #paragraph {
 	padding-top: 40px;
-	font-size: 150%;
+	font-size: 110%;
 	padding-bottom: 40px;
 }
 
 #about {
+	padding-top: 0px;
 	height: auto;
 }
 
+#portfolio {
+	height: auto;
+}
+
+#contact {
+	height: auto;
+}
 .preview {
     width:  calc(100vw / 4);
     height: calc(100vw / 4);
