@@ -92,12 +92,14 @@ footer {
 }
 
 #fullbleed-title {
-    padding-top: 250px;
+    padding-top: 30vh;
 	text-align: center;
 	font-size: 300%;
 	color: #b61924;
 	background-color: rgba(255, 255, 255, 0.75);
-	padding-bottom: 250px;
+	padding-bottom: 30vh;
+	padding-left: 70px;
+	padding-right: 70px;
 }
 
 #section-title {
@@ -106,7 +108,7 @@ footer {
 	color: #b61924;
 	font-size: 300%;
 }
-contact-title {
+#contact-title {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
@@ -131,6 +133,21 @@ contact-title {
 #contact {
 	height: auto;
 }
+
+
+#left { 
+	position: absolute; 
+	left: 0; 
+	top: 0; 
+	width: 50%; 
+	}
+#right { 
+	position: absolute; 
+	right: 0; 
+	top: 0; 
+	width: 50%; 
+	}
+
 .preview {
     width:  calc(100vw / 4);
     height: calc(100vw / 4);
@@ -160,8 +177,8 @@ contact-title {
     font-size: 5vw;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.4);
-    padding-top: 4.5vw;
-    padding-bottom: 4.5vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
 }
 
 .preview:hover .overlay {
