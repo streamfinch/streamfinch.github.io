@@ -88,6 +88,16 @@ footer {
 #fullbleed {
     background-image: url('http://streamfinch.com/img/chicago.jpg');
     background-size: cover;
+    height: auto;
+}
+
+#fullbleed-title {
+    padding-top: 250px;
+	text-align: center;
+	font-size: 300%;
+	color: #b61924;
+	background-color: rgba(255, 255, 255, 0.75);
+	padding-bottom: 250px;
 }
 
 #section-title {
@@ -134,13 +144,13 @@ footer {
     color: #FFFFFF;
     font-size: 5vw;
     text-align: center;
-    
-    padding-top: 10vw;
-    padding-bottom: 10vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 4.5vw;
+    padding-bottom: 4.5vw;
 }
 
 .preview:hover .overlay {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .preview:hover img {
