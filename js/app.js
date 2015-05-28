@@ -6,7 +6,7 @@ window.requestAnimationFrame(function animate(params) {
     var distanceBg   = bg.getBoundingClientRect().top;
     var windowHeight = document.body.getBoundingClientRect().height;
 
-    bg.setAttribute('style', 'background-position: 0px ' + (distanceBg - windowHeight) + 'px');
+    bg.setAttribute('style', 'background-position: 0px ' + (distanceBg - windowHeight) / 3 + 'px');
 
     if (particles && distanceTop > windowHeight) {
         particles.fn.vendors.destroy();
