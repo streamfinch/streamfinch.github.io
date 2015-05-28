@@ -24,7 +24,7 @@ var config = {
     particles: {
         color: '#fff',
         color_random: false,
-        shape: 'circle', // "circle", "edge" or "triangle"
+        shape: 'circle',
         opacity: {
             opacity: 1,
             anim: {
@@ -59,25 +59,24 @@ var config = {
         mouse: {
             distance: 300
         },
-        detect_on: 'canvas', // "canvas" or "window"
-        mode: 'grab', // "grab" or false
+        detect_on: 'canvas',
+        mode: 'grab',
         line_linked: {
             opacity: .5
         },
         events: {
             onclick: {
                 enable: true,
-                mode: 'push', // "push" or "remove"
+                mode: 'push',
                 nb: 4
             },
             onresize: {
                 enable: true,
-                mode: 'out', // "out" or "bounce"
+                mode: 'out',
                 density_auto: false,
-                density_area: 800 // nb_particles = particles.nb * (canvas width *  canvas height / 1000) / density_area
+                density_area: 800
             }
         }
     },
-    /* Retina Display Support */
     retina_detect: true
 };
