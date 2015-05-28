@@ -2,18 +2,18 @@ var particles = null;
 var bg = document.getElementById('fullbleed');
 
 window.requestAnimationFrame(function animate(params) {
-    var distanceTop = bg.getBoundingClientRect().top;
+    var distanceTop  = document.body.scrollTop;
+    var distanceBg   = bg.getBoundingClientRect().top;
     var windowHeight = document.body.getBoundingClientRect().height;
-    var progress = distanceTop - windowHeight;
 
-    bg.setAttribute('style', 'background-position: 0px ' + progress + 'px');
+    bg.setAttribute('style', 'background-position: 0px ' + (distanceBg - windowHeight) + 'px');
 
-    if (particles && document.body.scrollTop > windowHeight) {
+    if (particles && distanceTop > windowHeight) {
         particles.fn.vendors.destroy();
         particles = null;
     }
 
-    if (!particles && document.body.scrollTop < windowHeight) {
+    if (!particles && distanceTop < windowHeight) {
         particles = particlesJS('particles', config);
     }
 
