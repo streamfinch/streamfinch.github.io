@@ -7,7 +7,6 @@
 /* ----------------------------------------------- */
 
 function launchParticlesJS(tag_id, params){
-
   var canvas_el = document.querySelector('#'+tag_id+' > canvas');
 
   /* particles.js variables with default values */
@@ -587,6 +586,7 @@ function launchParticlesJS(tag_id, params){
     pJS.fn.vendors.interactivity.listeners();
   }
 
+  return pJS;
 
 };
 
@@ -655,7 +655,7 @@ window.particlesJS = function(tag_id, params){
 
   /* launch particle.js */
   if(canvas != null){
-    launchParticlesJS(tag_id, params);
+    return launchParticlesJS(tag_id, params);
   }
 
 };
