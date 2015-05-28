@@ -114,6 +114,7 @@ footer {
 	text-align: center;
 	color: #b61924;
 	font-size: 300%;
+	
 }
 #paragraph {
 	padding-top: 40px;
@@ -132,20 +133,23 @@ footer {
 
 #contact {
 	height: auto;
+	text-align: center;
 }
 
 
 #left { 
-	position: absolute; 
+	position: relative; 
 	left: 0; 
-	top: 0; 
+	bottom: 0; 
 	width: 50%; 
+	text-align: center;
 	}
 #right { 
-	position: absolute; 
+	position: relative; 
 	right: 0; 
-	top: 0; 
+	bottom: 0; 
 	width: 50%; 
+	text-align: center;
 	}
 
 .preview {
