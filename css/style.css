@@ -15,6 +15,15 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
     font-family: 'Open Sans', sans-serif;
 }
 
+a {
+	color: black;
+  text-decoration: none; /* no underline */
+}
+
+a:hover {
+	color: #292929;
+  text-decoration: none; /* no underline */
+}
 html, body {
     width: 100%;
     height: 100%;
