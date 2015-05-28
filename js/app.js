@@ -1,3 +1,4 @@
+/* global particlesJS */
 var particles = null;
 var bg = document.getElementById('fullbleed');
 
