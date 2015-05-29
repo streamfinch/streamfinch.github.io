@@ -12,7 +12,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 a {
@@ -28,7 +28,7 @@ html, body {
     width: 100%;
     height: 100%;
     background: #eeeeee;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 50;
 }
 
@@ -44,15 +44,15 @@ section {
 }
 
 footer {
-    height: 200px;
-    background-color: black;
+    height: 300px;
+    background-color: #b61924;
     color: white;
     position: fixed;
     bottom: 0px;
-    
+    text-align: center;
     width: 100%;
     z-index: -1;
-    font-size: 40px;
+    font-size: 15px;
 }
 
 .container {
@@ -61,7 +61,7 @@ footer {
 }
 
 .footer-spacer {
-    height: 200px;
+    height: 300px;
     background-color: transparent;
 }
 
@@ -70,6 +70,15 @@ footer {
     width: 50vw;
     position: absolute;
     margin-top: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.logo-footer {
+    float: middle;
+    padding-top: 30px;
+    width: 30vw;
     margin-left: auto;
     margin-right: auto;
     left: 0;
