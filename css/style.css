@@ -138,6 +138,7 @@ footer {
 	padding-top: 40px;
 	font-size: 110%;
 	padding-bottom: 40px;
+	
 }
 
 #about {
@@ -152,23 +153,41 @@ footer {
 #contact {
 	height: auto;
 	text-align: center;
+	c
 }
 
 
-#left { 
-	position: relative; 
-	left: 0; 
-	bottom: 0; 
-	width: 50%; 
-	text-align: center;
+.contact-buttons {
+    width:  calc(100vw / 8);
+    height: calc(100vw / 8);
+    margin-left: 18.5vw;
+    margin-right: auto;
+    padding: 0px;
+    border: 0px;
+    font-size: 2vw;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    color: #b61924;
+}
+
+@media screen and (max-width: 700px) {
+    .contact-buttons {
+    	width:  calc(100vw / 5);
+		height: calc(100vw / 5);
+		margin-left: 12.5vw;
+		margin-right: auto;
+		padding: 0px;
+		border: 0px;
+		font-size: 3vw;
+		text-align: center;
+		float: left;
+		overflow: hidden;
+		position: relative;
+		color: #b61924;
 	}
-#right { 
-	position: relative; 
-	right: 0; 
-	bottom: 0; 
-	width: 50%; 
-	text-align: center;
-	}
+}
 
 .preview {
     width:  calc(100vw / 4);
@@ -180,6 +199,7 @@ footer {
     overflow: hidden;
     position: relative;
 }
+
 
 .preview * {
     width: 100%;
