@@ -209,6 +209,10 @@ footer {
     transition-timing-function: ease-in-out;
 }
 
+.padding {
+	margin-top: 150px;
+}
+
 .preview .overlay {
     z-index: 1;
 }
