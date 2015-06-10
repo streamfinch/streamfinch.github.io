@@ -257,15 +257,16 @@ footer img {
 }
 .Column
 {
-	
+	text-align: center;
     display: table-cell;
 }
 
-.Column img {
+.Column img {	
 	padding-bottom: 15px;
 }
 
 .Column p {
+	text-align: left;
 	border-top: 3px solid #b61924;
 	padding-top: 15px;
 }
