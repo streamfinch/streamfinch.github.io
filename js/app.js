@@ -1,6 +1,6 @@
 /* global particlesJS */
-document.getElementById('email').setAttribute('href', 'mailto:contact@streamfinch.com');
-document.getElementById('phone').setAttribute('href', 'tel:+1-224-619-4982');
+document.getElementById('email').setAttribute('href', atob('bWFpbHRvOmNvbnRhY3RAc3RyZWFtZmluY2guY29t'));
+document.getElementById('phone').setAttribute('href', atob('dGVsOisxLTIyNC02MTktNDk4Mg=='));
 
 var particles = null;
 var bg = document.getElementById('fullbleed');
