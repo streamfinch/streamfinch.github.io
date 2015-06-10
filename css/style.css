@@ -6,7 +6,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
-    font-family: 'Lato', sans-serif;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
 }
 
 a {
@@ -22,7 +24,9 @@ html, body {
     width: 100%;
     height: 100%;
     background: #eeeeee;
-    font-family: 'Lato', sans-serif;
+     font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
     font-weight: 50;
 }
 
