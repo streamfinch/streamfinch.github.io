@@ -79,7 +79,7 @@ footer {
     left: 0;
     right: 0;
 }
-.logo-footer {
+footer img {
     float: middle;
     padding-top: 30px;
     width: 30vw;
@@ -135,11 +135,6 @@ footer {
 	color: #b61924;
 	font-size: 300%;
 	
-}
-#paragraph {
-	padding-top: 30px;
-	font-size: 110%;
-	padding-bottom: 40px;
 }
 
 #portfolio {
