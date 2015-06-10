@@ -132,25 +132,8 @@ footer {
 	padding-bottom: 40px;
 }
 
-#contact {
-	height: auto;
-	text-align: center;
-}
-
-
-.contact-buttons {
-    width:  calc(100vw / 8);
-    height: calc(100vw / 8);
-    margin-left: 18.5vw;
-    margin-right: auto;
-    padding: 0px;
-    border: 0px;
-    font-size: 2vw;
-    text-align: center;
-    float: left;
-    overflow: hidden;
-    position: relative;
-    color: #b61924;
+#portfolio {
+    height: calc(100vw / 4);;
 }
 
 @media screen and (max-width: 700px) {
@@ -229,4 +212,19 @@ footer {
     color: white;
     text-transform: uppercase;
     font-weight: 500;
+}
+
+.button {
+    font-size: 18px;
+    border: 2px solid #000000;
+    padding: 24px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.button:hover {
+    color: #ffffff;
+    background-color: #000000;
 }
