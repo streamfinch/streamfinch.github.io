@@ -27,7 +27,6 @@ html, body {
      font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
-    font-weight: 50;
 }
 
 canvas {
@@ -232,5 +231,4 @@ footer {
     font-size: 5vh;
     color: white;
     text-transform: uppercase;
-    font-weight: 500;
 }
