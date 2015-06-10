@@ -30,6 +30,14 @@ html, body {
 	font-weight: normal;
 }
 
+h2 {
+    font-family: Karla, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+}
+
 canvas {
     display: block;
     opacity: 0.6;
@@ -121,6 +129,9 @@ footer img {
 	text-align: center;
 	color: #b61924;
 	font-size: 300%;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	text-transform: uppercase;
 }
 #contact-title {
 	padding-top: 10px;
