@@ -146,6 +146,10 @@ footer img {
     height: calc(100vw / 4);;
 }
 
+.icons{
+	width: 100px;
+}
+
 @media screen and (max-width: 700px) {
     .contact-buttons {
     	width:  calc(100vw / 5);
@@ -237,4 +241,26 @@ footer img {
 .button:hover {
     color: #ffffff;
     background-color: #000000;
+}
+
+.Row
+{
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+}
+.Column
+{
+	
+    display: table-cell;
+}
+
+.Column img {
+	padding-bottom: 15px;
+}
+
+.Column p {
+	border-top: 3px solid #b61924;
+	padding-top: 15px;
 }
