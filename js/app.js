@@ -17,7 +17,7 @@ window.requestAnimationFrame(function animate(params) {
         particles = null;
     }
 
-    if (!particles && distanceTop < windowHeight) {
+    if (!particles && distanceTop < windowHeight && particlesJS) {
         particles = particlesJS('particles', config);
     }
 
