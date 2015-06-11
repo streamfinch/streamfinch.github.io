@@ -329,5 +329,17 @@ footer img {
 	}
 	
 }
+@media screen and (min-width: 1900) {
+	preview {
+    width:  calc(100vw / 4.055);
+    height: calc(100vw / 4);
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+	}
+}
 
 
