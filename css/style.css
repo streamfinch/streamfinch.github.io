@@ -320,6 +320,9 @@ footer img {
 	footer p {
 		font-size: 5vw;
 	}
+	footer img {
+		width: 50vw;
+	}
 }
 
 @media screen and (max-width: 1050px) {
@@ -339,6 +342,14 @@ footer img {
     float: left;
     overflow: hidden;
     position: relative;
+	}
+	
+	#fullbleed{
+	height: 55vh;
+	}
+	
+	footer img {
+		width: 25vw;
 	}
 }
 
