@@ -228,8 +228,7 @@ footer img {
 .button {
 	text-align: center;
     font-size: 18px;
-    color: #fff;
-    background-color: #b61924;
+    color: #b61924;
     border: 2px solid #b61924;
     padding: 24px;
     margin-top: 19px;
@@ -242,9 +241,9 @@ footer img {
 }
 
 .button:hover {
-    color: #b61924;
+    color: #fff;
+    background-color: #b61924;
     border: 2px solid #b61924;
-    background-color: rgba(0, 0, 0, 0);
 
 }
 
