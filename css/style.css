@@ -111,6 +111,7 @@ footer img {
 
 #fullbleed {
     background-image: url('../img/city.jpg'); /* Copyright Aurimas 2011 https://www.flickr.com/photos/needoptic/5906819981 CC BY-ND 2.0 */
+    height: 65vh;
 }
 
 #fullbleed-title {
@@ -272,7 +273,7 @@ footer img {
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
    	#section-title {
 	padding-top: 40px;
 	text-align: center;
@@ -287,6 +288,11 @@ footer img {
 	text-align: center;
 	align-content: center;
 	height: auto;
+	padding-bottom: 20px;
+	}
+	
+	#fullbleed {
+	height: auto;
 	}
 	
 	.preview {
@@ -299,6 +305,14 @@ footer img {
     overflow: hidden;
     position: relative;
 	}
+}
+
+@media screen and (max-width: 1050px) {
+   		
+	#fullbleed {
+	height: auto;
+	}
+	
 }
 
 
