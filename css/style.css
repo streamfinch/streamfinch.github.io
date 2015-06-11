@@ -150,22 +150,7 @@ footer img {
 	width: 100px;
 }
 
-@media screen and (max-width: 700px) {
-   	#section-title {
-	padding-top: 40px;
-	text-align: center;
-	color: #b61924;
-	font-size: 240%;
-	padding-bottom: 30px;
-	padding-top: 30px;
-	text-transform: uppercase;
-	}
-	#contact {
-	text-align: center;
-	align-content: center;
-	height: auto;
-	}
-}
+
 
 #about {	
 	height: auto;
@@ -284,6 +269,36 @@ footer img {
 	text-align: left;
 	border-top: 3px solid #b61924;
 	padding-top: 15px;
+}
+
+
+@media screen and (max-width: 700px) {
+   	#section-title {
+	padding-top: 40px;
+	text-align: center;
+	color: #b61924;
+	font-size: 240%;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	text-transform: uppercase;
+	}
+	
+	#contact {
+	text-align: center;
+	align-content: center;
+	height: auto;
+	}
+	
+	.preview {
+    width:  calc(100vw / 2);
+    height: calc(100vw / 2);
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+	}
 }
 
 
