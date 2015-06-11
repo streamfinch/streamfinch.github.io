@@ -329,7 +329,7 @@ footer img {
 	}
 	
 }
-@media screen and (min-width: 1900) {
+@media screen and (min-width: 1900px) {
 	preview {
     width:  calc(100vw / 4.055);
     height: calc(100vw / 4);
