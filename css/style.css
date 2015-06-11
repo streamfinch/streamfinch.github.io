@@ -345,7 +345,14 @@ footer img {
 	}
 	
 	#fullbleed{
-	height: 55vh;
+	height: auto;
+	}
+	
+	#contact {
+	text-align: center;
+	align-content: center;
+	height: auto;
+	padding-bottom: 20px;
 	}
 	
 	footer img {
