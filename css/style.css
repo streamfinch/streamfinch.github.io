@@ -47,6 +47,7 @@ section {
     height: 100vh;
     width: 100%;
     background-color: #eeeeee;
+    overflow-x: hidden;
 }
 
 footer {
@@ -144,7 +145,7 @@ footer img {
 }
 
 #portfolio {
-    height: calc(100vw / 4);;
+    height: calc(100vw / 2);
 }
 
 .icons{
@@ -313,6 +314,11 @@ footer img {
     overflow: hidden;
     position: relative;
 	}
+    
+    #portfolio {
+        height: 100vw;
+    }
+    
 	.logo {
     width: 80vw;
 	}
@@ -327,7 +333,7 @@ footer img {
 @media screen and (max-width: 1050px) {
    		
 	#fullbleed {
-	height: auto;
+	     height: auto;
 	}
 	
 }
@@ -338,7 +344,6 @@ footer img {
     margin: 0px;
     padding: 0px;
     border: 0px;
-    float: left;
     overflow: hidden;
     position: relative;
 	}
@@ -356,7 +361,7 @@ footer img {
 	
 	footer img {
 		width: 25vw;
-	}
+    }
 }
 
 
