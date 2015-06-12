@@ -63,7 +63,7 @@ footer {
 }
 
 .container {
-    padding: 0 10%;
+    padding: 0% 10% 5% 10%;
     width: 80%;
 }
 
@@ -146,6 +146,7 @@ footer img {
 
 #portfolio {
     height: calc(100vw / 2);
+    
 }
 
 .icons{
@@ -161,13 +162,13 @@ footer img {
 #contact {
 	text-align: center;
 	align-content: center;
-	height: 55vh;
+	height: auto;
 
 }
 
 .preview {
-    width:  calc(100vw / 4);
-    height: calc(100vw / 4);
+    width:  calc(100% / 4);
+    height: calc(200% / 4);
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -351,14 +352,7 @@ footer img {
 	#fullbleed{
 	height: auto;
 	}
-	
-	#contact {
-	text-align: center;
-	align-content: center;
-	height: auto;
-	padding-bottom: 20px;
-	}
-	
+		
 	footer img {
 		width: 25vw;
     }
