@@ -278,7 +278,7 @@ span.protectedNumber:before {
 }
 
 span.protectedEmail:before {
-    content: "Send us and email:  " attr(title);
+    content: "Send us an email:  " attr(title);
 }
 
 @media screen and (max-width: 750px) {
