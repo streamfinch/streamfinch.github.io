@@ -273,6 +273,13 @@ footer img {
 	padding-top: 15px;
 }
 
+span.protectedNumber:before {
+    content: "Give us a call:    " attr(title);
+}
+
+span.protectedEmail:before {
+    content: "Send us and email:  " attr(title);
+}
 
 @media screen and (max-width: 750px) {
    	#section-title {
@@ -357,5 +364,6 @@ footer img {
 		width: 25vw;
     }
 }
+
 
 
